@@ -1,6 +1,5 @@
 <!-- use order of kali linux xdg-menu to organize -->
-<!-- get nessus scans in repo -->
-<!-- Security Testing-burpsuite openVAS(another md for this?) metasploit wireshark -->
+<!-- openVAS ?-->
 
 # Conducting a Penetration Test on a Small Network
 
@@ -98,7 +97,7 @@ combine the `/etc/passwd` and `/etc/shadow` files so that they can be cracked wi
 ![](unshadow.png)
 ![](john.png)
 
-Remediation is discussed in the [Network Hardening](https://github.com/elvindsouza/hardening) documentation, under [Least Privilege](https://github.com/elvindsouza/hardening/README.md/#Least-Privilege)
+Remediation is discussed in the [Network Hardening](https://github.com/elvindsouza/hardening) documentation, under [Least Privilege](https://github.com/elvindsouza/hardening#least-privilege)
 
 ## Wireshark
 
@@ -149,7 +148,7 @@ Below, `--dbs` would list databases
 
 Dump the database "dvwa"
 
-sqlmap --cookie=" PHPSESSID=57upmh3ukcknj75eq45na0cr50; security=low" --url="http://localhost/vulnerabilities/sqli/?id=2&Submit=Submit#" -D dvwa --dump
+`sqlmap --cookie=" PHPSESSID=57upmh3ukcknj75eq45na0cr50; security=low" --url="http://localhost/vulnerabilities/sqli/?id=2&Submit=Submit#" -D dvwa --dump`
 
 ( consult `sqlmap --help` for more options)
 
@@ -175,7 +174,7 @@ We will use `msfconsole` to interface to the Metasploit Framework. Here, we use 
 
 ![](msf_pwnd.png)
 
-> The scope of an attack after getting root is only limited by the attacker's imagination
+> _The scope of an attack after getting root is only limited by the attacker's imagination_
 
 # Analysis and Reporting
 
