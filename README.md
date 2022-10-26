@@ -8,7 +8,7 @@
 
 The aim is to demonstrate my usage of important ethical hacking and penetration testing tools, to show the methodology and organized execution using benchmarks, guidelines, etc. Documentation on this process is done thoroughly, and some important files(eg-scan reports) are available in this repository directory structure. I also aim to demonstrate my theoretical knowledge on operating systems and computer networks.
 
-Results from this penetration test were used to secure the network devices and systems on it in the next project [Hardening a Small Network](https://elvindsouza.github.io/hardening/)
+Results from this penetration test were used to secure the network devices and systems on it in the next project [Hardening a Small Network](https://elvindesouza.github.io/hardening/)
 
 ---
 
@@ -100,7 +100,7 @@ combine the `/etc/passwd` and `/etc/shadow` files so that they can be cracked wi
 ![](unshadow.png)
 ![](john.png)
 
-Remediation is discussed in the [Network Hardening](https://elvindsouza.github.io/hardening/) documentation, under [Least Privilege](https://elvindsouza.github.io/hardening/#least-privilege)
+Remediation is discussed in the [Network Hardening](https://elvindesouza.github.io/hardening/) documentation, under [Least Privilege](https://elvindesouza.github.io/hardening/#least-privilege)
 
 ## Wireshark
 
@@ -189,4 +189,4 @@ Services and autostarting applications are a big pathway for attackers to enter 
 
 Poor configuration and weak credentials would allow an attacker easy access to these systems. Remediation would be to follow security benchmarks from reputable organizations and doing a bit of research on the needed strength of passwords and encryption
 
-_more details are covered in my [subsequent project](https://elvindsouza.github.io/hardening), where I used the results from this process to harden systems on the same network_
+_more details are covered in my [subsequent project](https://elvindesouza.github.io/hardening), where I used the results from this process to harden systems on the same network_
